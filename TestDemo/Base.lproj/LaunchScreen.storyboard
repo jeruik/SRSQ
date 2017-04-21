@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat_men" translatesAutoresizingMaskIntoConstraints="NO" id="huR-Uw-Uua">
+                                <rect key="frame" x="40" y="389" width="120" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="0FS-3W-dUG"/>
+                                    <constraint firstAttribute="width" constant="120" id="i2c-In-lPi"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat-women" translatesAutoresizingMaskIntoConstraints="NO" id="FmG-xZ-F0k">
+                                <rect key="frame" x="216" y="264" width="119" height="95"/>
+                                <color key="backgroundColor" red="0.56470588239999997" green="0.56470588239999997" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="119" id="giV-xc-qew"/>
+                                    <constraint firstAttribute="height" constant="95" id="xyh-SO-Fyv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="专属私人社区交流平台 v 1.4.0(1)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bp2-Lc-Us4">
+                                <rect key="frame" x="85.5" y="589" width="205" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2011-2017 SRSQ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3n-PG-BaX">
+                                <rect key="frame" x="98" y="616" width="180" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FhI-8t-XMq">
+                                <rect key="frame" x="209" y="264" width="10" height="95"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="KoG-Ha-ODO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bp2-Lc-Us4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="42A-7o-Xae"/>
+                            <constraint firstItem="huR-Uw-Uua" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="40" id="529-eh-Pkd"/>
+                            <constraint firstItem="FhI-8t-XMq" firstAttribute="bottom" secondItem="FmG-xZ-F0k" secondAttribute="bottom" id="Hf8-7U-qrN"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="f3n-PG-BaX" secondAttribute="bottom" constant="35" id="MYc-IM-qJv"/>
+                            <constraint firstItem="f3n-PG-BaX" firstAttribute="top" secondItem="Bp2-Lc-Us4" secondAttribute="bottom" constant="10" id="TAx-eI-KjM"/>
+                            <constraint firstAttribute="trailing" secondItem="FmG-xZ-F0k" secondAttribute="trailing" constant="40" id="Z7d-yq-SXS"/>
+                            <constraint firstItem="f3n-PG-BaX" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jGE-vc-1DM"/>
+                            <constraint firstItem="FhI-8t-XMq" firstAttribute="top" secondItem="FmG-xZ-F0k" secondAttribute="top" id="lWM-dI-k5o"/>
+                            <constraint firstItem="huR-Uw-Uua" firstAttribute="top" secondItem="FmG-xZ-F0k" secondAttribute="bottom" constant="30" id="qKP-ed-TeU"/>
+                            <constraint firstItem="FmG-xZ-F0k" firstAttribute="leading" secondItem="FhI-8t-XMq" secondAttribute="trailing" constant="-3" id="ujL-m0-Pzf"/>
+                            <constraint firstItem="Bp2-Lc-Us4" firstAttribute="top" secondItem="huR-Uw-Uua" secondAttribute="bottom" constant="100" id="v9Z-h4-dgI"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chat-women" width="126" height="90"/>
+        <image name="chat_men" width="124" height="92"/>
+    </resources>
+</document>

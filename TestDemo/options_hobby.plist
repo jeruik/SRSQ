@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>go</string>
+	<string>python</string>
+	<string>C++</string>
+	<string>C</string>
+	<string>javaScript</string>
+	<string>html</string>
+	<string>php</string>
+	<string>node.js</string>
+	<string>ruby</string>
+	<string>java</string>
+	<string>oc</string>
+	<string>swift</string>
+	<string>摄影</string>
+	<string>上网</string>
+	<string>认识陌生人</string>
+	<string>游泳</string>
+	<string>羽毛球</string>
+	<string>烹饪</string>
+	<string>驾驶</string>
+	<string>瑜伽</string>
+	<string>英语</string>
+	<string>日语</string>
+	<string>韩语</string>
+	<string>小语种</string>
+	<string>涂鸦</string>
+	<string>弹钢琴</string>
+	<string>K歌</string>
+	<string>舞蹈</string>
+	<string>美甲</string>
+	<string>化妆</string>
+	<string>造型设计</string>
+	<string>魔术</string>
+	<string>健身</string>
+	<string>钓鱼</string>
+	<string>足球</string>
+	<string>篮球</string>
+	<string>高尔夫</string>
+	<string>户外探险</string>
+	<string>股票投资</string>
+	<string>编程</string>
+	<string>期货</string>
+	<string>企业管理</string>
+	<string>电影</string>
+	<string>阅读</string>
+	<string>游戏</string>
+</array>
+</plist>
