@@ -29,8 +29,8 @@
 // 融云appkey 和 appsecret
 #ifdef DEBUG
 // 测试
-#define RCIN_APP_KEY    @"xxxx"
-#define RCIN_APP_Secret @"xxxx"
+#define RCIN_APP_KEY    @"m7ua80gbm72um"
+#define RCIN_APP_Secret @"fcSfdbqiuuU"
 #else
 // 上线
 #define RCIN_APP_KEY    @"xxxx"
